@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: "Punkt.de"
+  license: ""
+  description: "Ansible role for Apache Tika"
+  role_name: "proserver_tika"
+  namespace: "punktde"
+  min_ansible_version: "2.15"
+
+dependencies:
+  - role: supervisord

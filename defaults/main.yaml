@@ -1,0 +1,11 @@
+---
+tika:
+  prefix:
+    home: /var/opt/solr/tika
+    logs: /var/log/solr-ansible
+  version: 3.2.3
+  user: solr
+  group: solr
+  java_opts: -Xmx1g
+  host: localhost
+  port: 9998
